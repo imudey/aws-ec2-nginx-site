@@ -52,7 +52,8 @@ Encountered a Cloudflare 522 error (connection timeout between Cloudflare and EC
 ## Investigated DNS settings and proxy configuration
 ## Resolved the issue by adjusting Cloudflare proxy settings and ensuring correct server connectivity
 ## Gained understanding of how Cloudflare sits between users and the origin server
-<img width="527" height="135" alt="image" src="https://github.com/user-attachments/assets/30a527ed-8ea4-45bd-ab68-d17869f5df72" /> 
+<img width="527" height="135" alt="image" src="https://github.com/user-attachments/assets/abfaaefa-abe9-4695-a1ad-4695a9e97e6d" />
+
 
 
 
