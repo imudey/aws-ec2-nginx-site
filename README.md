@@ -52,7 +52,10 @@ Encountered a Cloudflare 522 error (connection timeout between Cloudflare and EC
 ## Investigated DNS settings and proxy configuration
 ## Resolved the issue by adjusting Cloudflare proxy settings and ensuring correct server connectivity
 ## Gained understanding of how Cloudflare sits between users and the origin server
-<img width="528" height="135" alt="Screenshot 2026-05-06 214257" src="https://github.com/user-attachments/assets/f8d78662-733d-4d1a-9656-bf3fb1951ff4" />
+
+Service	Est Cost
+Cloud flare	£10/yr
+EC2	Free  Tier 6months 3rd Nov 2026
 
 
 
