@@ -36,7 +36,7 @@ sudo apt install nginx -y
 
 4. Deployed Website
 Edited /var/www/html/index.html
-## the default folder used by nginx
+## This is the default directory served by NGINX
 Added a simple HTML page
 ## used index.html as it is the main homepage file
 
@@ -44,14 +44,13 @@ Added a simple HTML page
 Bought domain via Cloudflare
 ## interesting note here, i was trying to buy a domain and would come against an error that would not allow me. After some research found out this is a common issue and to bypass it we should purchase a domain in incognito mode.
 Created A record pointing to EC2 public IP
-## this was interesting basically had to learn what an A recordd is. Also, had to research on proxy status and what proxied/DNS only mean.
+## Learned the difference between DNS-only and proxied mode
 
 6. Troubleshooting
-Encountered a Cloudflare 522 timeout error
-## this was due to being on dns only when creating my website just with http. Once i configured it to https i encountered the erorr and switched to proxied. I waited about 15mins and came back to the webpage and it loaded up with my typical index.html
-Learned the difference between DNS-only and proxied mode
-Fixed connectivity issues by adjusting settings
-## this was due to me trying to get my website secure using HTTPS.
+Encountered a Cloudflare 522 error (connection timeout between Cloudflare and EC2)
+## Investigated DNS settings and proxy configuration
+Resolved the issue by adjusting Cloudflare proxy settings and ensuring correct server connectivity
+Gained understanding of how Cloudflare sits between users and the origin server
 
 7. Future Improvements
 Improve website design
