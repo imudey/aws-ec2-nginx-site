@@ -2,6 +2,7 @@
 
 ## Overview
 This project demonstrates how I deployed a live website using AWS EC2 and NGINX, and connected it to a custom domain using Cloudflare.
+<img width="1918" height="695" alt="image" src="https://github.com/user-attachments/assets/ffad1c46-a32e-4140-bd28-ad87bc3e5d9a" />
 
 ## What I Built
 - A virtual server using AWS EC2
