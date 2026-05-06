@@ -49,8 +49,8 @@ Created A record pointing to EC2 public IP
 6. Troubleshooting
 Encountered a Cloudflare 522 error (connection timeout between Cloudflare and EC2)
 ## Investigated DNS settings and proxy configuration
-Resolved the issue by adjusting Cloudflare proxy settings and ensuring correct server connectivity
-Gained understanding of how Cloudflare sits between users and the origin server
+## Resolved the issue by adjusting Cloudflare proxy settings and ensuring correct server connectivity
+## Gained understanding of how Cloudflare sits between users and the origin server
 
 7. Future Improvements
 Improve website design
